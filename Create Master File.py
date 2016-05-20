@@ -31,10 +31,11 @@ for row in range(sheet.nrows):
         os.mkdir(FOLDER_LOCATION + '\\' + str(folder_front) + '-' + folder_back.upper() + '\\' + '11- TRAVEL')
         os.mkdir(FOLDER_LOCATION + '\\' + str(folder_front) + '-' + folder_back.upper() + '\\' + '12- EXPENSE REPORT')
         os.mkdir(FOLDER_LOCATION + '\\' + str(folder_front) + '-' + folder_back.upper() + '\\' + '13- PROD. FINAL')
+        print('Adding, ', row, ' folder.')
     except FileExistsError:
         continue
 
 
 
-
+print('Done... No more folders to add.')
 
