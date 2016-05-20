@@ -38,4 +38,5 @@ for row in range(sheet.nrows):
 
 
 print('Done... No more folders to add.')
+input()
 
